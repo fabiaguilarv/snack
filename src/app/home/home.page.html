@@ -1,14 +1,32 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Snack
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content >
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+      
+      <ion-text color="dark">
+        <h1>Categorías</h1>
+      </ion-text>
+   
+    <ion-grid>
+      <ion-card (click)="go()">
+        <img src="../assets/img/pizza.jpg"/>
+        <div class="card-title">Pizza</div>
+        <div class="card-subtitle">41 Listings</div>
+      </ion-card>
+    </ion-grid>  
+
   </div>
 </ion-content>
+
+
+
+     
+ 
+
+      
